@@ -1,0 +1,3 @@
+class sample_testing {
+
+}
