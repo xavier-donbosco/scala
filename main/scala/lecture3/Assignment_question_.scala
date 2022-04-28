@@ -1,6 +1,6 @@
 package lecture3
 
-import scala.sys.process.processInternal.File
+//import scala.sys.process.processInternal.File
 
 object Assignment_question_ extends App {
   val devUrl = "abfss:container@devstorage.dfs.core.windows.net/bronze/".split('.')
@@ -30,13 +30,13 @@ def accUrl1(m3: Unit)=m3
 def prodUrl1(m4: Unit)=m4
 //if (m1==m2) println("There is not common words")
 //else println("There are one or more common words")
-val dir: File = "C:/Users/Saitama/IdeaProjects/sample_1/src/main/scala/lecture3/new_folder"
-  .toFile
-  .createIfNotExists(true, true)
-
-val simpleFile = (C:/Users/Saitama/IdeaProjects/sample_1/src/main/scala/lecture3/new_folder")
-  .overwrite("")
-  .appendLines(devUrl,testUrl,accUrl,prodUrl1)
-
-simpleFile.lines.map(line => println(s"decor $line decor"))
+//val dir: File = "C:/Users/Saitama/IdeaProjects/sample_1/src/main/scala/lecture3/new_folder"
+//  .toFile
+//  .createIfNotExists(true, true)
+//
+//val simpleFile = (C:/Users/Saitama/IdeaProjects/sample_1/src/main/scala/lecture3/new_folder")
+//  .overwrite("")
+//  .appendLines(devUrl,testUrl,accUrl,prodUrl1)
+//
+//simpleFile.lines.map(line => println(s"decor $line decor"))
 
