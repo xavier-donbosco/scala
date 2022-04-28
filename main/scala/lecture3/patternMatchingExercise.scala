@@ -1,10 +1,11 @@
 package lecture3
 
 object patternMatchingExercise extends App {
-  trait Expr{
-    case class Number(n: Int) extends Expr
-    case class Sum(e1: Expr,e2: Expr) extends Expr
-    case class Product(e1: Expr, e2: Expr) extends Expr
+  val aList=List(1,2,3,4)
+  val aListOfNumbers=aList match {
+    case listOfStrings: List[String] => "A list of Strings"
+    case listOfIntegers: List[Int] => "A list of Integers"
+    case _ => "Nothing here"
   }
-  val exp
+  println(aListOfNumbers)
 }
