@@ -44,16 +44,11 @@ Employee.Salary from Employee inner join
 Department on 
 Employee.DeptId=Department.DeptID
 
-/* Question 4 #Doubt
+/* Question 4 */
 use School
-select distinct DeptId, avg(Salary),Department.DeptID, Department.Dname from Employee
-full join Department on Employee.DeptID=Department.DeptID
-
-select Salary from Employee
-union
-select DeptId from Department
-
-*/
+Select Dname, AVG (Salary) as Average_Salary from Employee as E
+Inner join Department as D ON E.DeptId = D.DeptId
+Group by Dname
 
 
 /* Quesiton 5 */

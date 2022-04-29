@@ -1,0 +1,3 @@
+I week one we learnt about, Installing Microsoft Sql Server, SSMS, and 
+Creating database, droping it, backing up 
+creating a table, downloading and accessing AdventureWorksDW2019
